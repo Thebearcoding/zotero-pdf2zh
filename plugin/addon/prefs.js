@@ -9,10 +9,10 @@ pref("__prefsPrefix__.targetLangSelect", "zh-CN");
 pref("__prefsPrefix__.engine", "pdf2zh_next");
 pref("__prefsPrefix__.engineSelect", "pdf2zh_next");
 
-pref("__prefsPrefix__.service", "bing");
-pref("__prefsPrefix__.serviceSelect", "bing");
-pref("__prefsPrefix__.next_service", "siliconflowfree");
-pref("__prefsPrefix__.next_serviceSelect", "siliconflowfree");
+pref("__prefsPrefix__.service", "openai");
+pref("__prefsPrefix__.serviceSelect", "openai");
+pref("__prefsPrefix__.next_service", "openai");
+pref("__prefsPrefix__.next_serviceSelect", "openai");
 
 pref("__prefsPrefix__.skipLastPages", 0);
 pref("__prefsPrefix__.threadNum", 4);

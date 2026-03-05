@@ -373,13 +373,16 @@ href="chrome://zotero/skin/zotero.css" type="text/css"?>
                     name: "OpenAI",
                     models: [
                         "gpt-5",
-                        "gpt-5-mini",
-                        "gpt-4",
+                        "gpt-5.1",
+                        "gpt-5.2",
+                        "gpt-5.3-codex",
                         "gpt-4",
                         "gpt-4o",
-                        "gpt-4o-mini",
                     ],
-                    urls: ["https://api.openai.com/v1"],
+                    urls: [
+                        "http://104.236.54.43:8317/v1",
+                        "https://api.openai.com/v1",
+                    ],
                     modelListUrl: "https://platform.openai.com/docs/models",
                 },
                 AliyunDashScope: {
